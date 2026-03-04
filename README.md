@@ -13,28 +13,6 @@ The framework is designed using **Page Object Model (POM)** to keep tests clean,
 ## Application Under Test
 SauceDemo website (login + end-to-end checkout flow)
 
----
-
-## Project Structure
-saucedemo-automation/
-├── src
-│ └── test
-│ └── java
-│ ├── base
-│ │ └── BaseTest.java
-│ ├── pages
-│ │ ├── LoginPage.java
-│ │ ├── InventoryPage.java
-│ │ ├── CartPage.java
-│ │ └── ...
-│ └── tests
-│ ├── LoginTest.java
-│ └── endToEndCheckoutTest.java
-├── pom.xml
-├── .gitignore
-└── README.md
-
-
 ### Folder Explanation
 - **base/**: Common setup/teardown (browser start/quit), shared utilities
 - **pages/**: Page classes (locators + actions), following POM
