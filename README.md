@@ -51,8 +51,6 @@ Contains TestNG test classes that execute the test scenarios using the page clas
 
 The goal of this project is to practice building a **scalable Selenium automation framework from scratch**, following industry best practices like **Page Object Model and clean project structure**.
 
----
-
 ## Author
 
 **Shikha Sharma**  
