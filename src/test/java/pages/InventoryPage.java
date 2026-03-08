@@ -38,6 +38,7 @@ public class InventoryPage {
         return driver.findElement(appLogo).getText();
     }
 
+
     public String getTitleText() {
         return driver.findElement(inventoryTitle).getText();
     }
