@@ -9,7 +9,7 @@ public class InventoryPage {
     private WebDriver driver;
 
     private By appLogo = By.cssSelector("div.app_logo");
-    private By inventoryTitle = By.className("title");
+    private By inventoryTitle = By.cssSelector("span.title");
 
     private By menuButton = By.id("react-burger-menu-btn");
     private By closeMenuButton = By.id("react-burger-cross-btn");
